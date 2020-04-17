@@ -1,0 +1,83 @@
+.banner {
+position: relative;
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+}
+
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+.color-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgb(30,30,30);
+	width: 100%;
+	height:100vh;
+	opacity: 0.7;	
+
+}
+
+.video-player {
+		z-index: 3;
+		position: absolute;	
+}
+
+@media (max-width: 530px) {
+	.color-overlay {
+	opacity: 0;	
+
+	}
+	.video-player {
+		z-index: 0
+	}
+
+}
+
+/*.banner h1 {
+	text-align: center;
+	font-size: 7rem;
+	font-family: roboto;
+	padding: 20px:;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.8;
+	color: white;
+	position: absolute;
+}*/
+
+/*.banner h2 {
+	text-align: center;
+	font-size: 3rem;
+	font-family: roboto;
+	padding: 20px:;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.8;
+	color: white;
+	position: absolute;
+	top: 0;
+}
+
+.banner h3 {
+	text-align: center;
+	font-size: 2rem;
+	font-family: roboto;
+	padding: 20px:;
+	margin: 15px;
+	z-index: 1;
+	opacity: 0.8;
+	color: white;
+	position: absolute;
+	bottom: 0;
+}*/

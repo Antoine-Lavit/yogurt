@@ -1,0 +1,16 @@
+.btn {
+	background-color: #FF4300;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	z-index: 1;
+	position: absolute;
+	top: 60vh;
+}
+
+.btn:hover {
+	background-color: rgb(168, 53, 15);
+	z-index:1;
+}
